@@ -1,0 +1,66 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    background: radial-gradient(circle, rgb(238 11 11) 3%, rgb(80, 9, 15) 100%);
+    
+  } 
+iframe {
+    border-radius:10px;
+    margin:4px 1px 0 6px;
+} 
+#moviePart,#resMovies{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+  
+  .movies{
+    width: 260px;
+    height: 300px;
+    margin: 80px 14px;
+    border-radius: 8px;
+    transition: all 0.2s linear 0s;
+    cursor: pointer;
+    background: radial-gradient(circle, rgb(255, 234, 74) 40%, #fd6106 100%);
+    
+  
+  
+  }
+  
+  .movies:hover{
+    box-shadow: 0px 0px 15px 0px rgb(15, 0, 6);
+    transform: translateY(-3px) ;
+    /* background: rgb(232,37,107); */
+    background: radial-gradient(circle, rgb(245, 243, 244) 40%, rgb(16, 0, 10) 100%);
+    color: rgb(12, 12, 0);
+  
+  }
+  
+  .filmImages img{
+    width: 94%;
+    height: 220px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 6px 7px;
+  }
+  
+  .filmName {
+    margin: 4px auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: math;
+    margin-left:3px;
+    margin-right:3px;
+  }
+  
+  .nam{
+    margin: 4px 0px;
+    cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,77 @@
+
+#footer{
+    width: 92%;
+    height: 276px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 20px black;
+    padding-top: 35px;
+    margin: 60px 70px 69px 68px;
+    padding-bottom: 35px;
+    border-radius: 40px;
+}
+
+#footabt,#footcont{
+    width: 35%;
+    height: 170px;
+}
+
+#footabt h2,#footcont h2{
+    cursor: context-menu;
+}
+
+#footcont ul{
+    list-style-type: none;
+    padding-left: 2px;
+}
+
+#footcont li{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-size: 22px;
+    margin: -2px 0;
+    padding: 5px 2px;
+    cursor: context-menu;
+}
+
+#footcont li i,#footcont li span{
+    cursor: pointer;
+}
+
+
+.fa-instagram:hover{
+    border-radius: 5px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+.fa-facebook-square:hover{
+    border-radius: 5px;
+    background-color: #3b5998;
+}
+.fa-twitter-square:hover{
+    border-radius: 5px;
+    background-color: #3b5998;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    background: radial-gradient(circle, rgb(238 11 11) 3%, rgb(80, 9, 15) 100%);
+    
+  } 
+
+
+a:link {
+
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+}

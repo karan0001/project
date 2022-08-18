@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: radial-gradient(circle, rgb(238 11 11) 3%, rgb(80, 9, 15) 100%);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #464444;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: rgb(20, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(31, 18, 18);
+}
+
+
+
+#nav_menu {
+    float: right;
+    font-size: 20px;
+    padding: 10px 5% 2px 0;
+}
+
+#nav_menu div {
+    margin-right: 30px;
+    padding: 10px;
+    padding-top: 15px;
+    margin-top: -14px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+#nav_menu div:hover {
+    background-color: rgb(78, 107, 131);
+}
+
+#select_nav {
+    background-color: rgb(109, 145, 177);
+}
+
+.nam{
+    margin: 4px 0px;
+    cursor: pointer;
+}
+  
+.filmName {
+    margin: 4px auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-family: math;
+    margin-left:3px;
+    margin-right:3px;
+  }
+  .movies img{
+    width: 94%;
+    height: 258px;
+    margin: 1px 8px;
+    border-radius: 9px
+}
+#lo_sig {
+    color: white;
+    background-color: rgb(54, 96, 133);
+    height: 37px;
+    width: 100px;
+    border: 2px solid antiquewhite;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#lo_sig:hover{
+    box-shadow: 0px 0px 15px 0px white;
+}
+
+
+.trendm {
+    width: 88%;
+   border-radius: 10px;
+   font-size: 1.5em;
+   text-align: center;
+   margin: 15px 100px;
+   font-family: fantasy;
+   background: radial-gradient(circle, rgb(194, 9, 9) 3%, rgb(1, 1, 21) 100%);
+   letter-spacing: 10px;
+   color:white;
+
+}
+
+a:link{
+    color:black;
+  }
+  a:visited{
+    color:black;
+  }
+#main_upper_cat{
+    /* scroll-margin-right: 20px; */
+    padding-right: 2.5%;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    padding-bottom: 30px;
+    overflow-x: auto;
+    white-space: nowrap;
+    background: radial-gradient(circle, rgb(238 11 11) 3%, rgb(80, 9, 15) 100%);
+
+    /* border: 2px solid red; */
+    
+}
+#main_upper_cat h1{
+    text-align: center;
+}
+#main_upper_cat:nth-child(even){
+    /* background-image: linear-gradient(rgb(249, 249, 255) 5%,rgb(203, 203, 251),rgb(249, 249, 255));
+     */
+     background: radial-gradient(circle, rgb(238 11 11) 3%, rgb(80, 9, 15) 100%);
+
+}
+#main_upper_cat:nth-child(even) .diff_cat{
+    background-color: rgb(255, 255, 255);
+}
+#main_upper_cat:nth-child(odd) .diff_cat{
+    background-color: rgb(255, 255, 255);
+}
+.main_cat_div{
+    margin-left:2%;
+
+}
+
+.movies{
+    width: 260px;
+    height: 300px;
+    margin: 80px 14px;
+    border-radius: 8px;
+    transition: all 0.2s linear 0s;
+    cursor: pointer;
+    background: radial-gradient(circle, rgb(255, 234, 74) 40%, #fd6106 100%);
+    display: inline-block;
+  
+  
+  }
+  
+  .movies:hover{
+    box-shadow: 0px 0px 15px 0px rgb(15, 0, 6);
+    transform: translateY(-3px) ;
+    /* background: rgb(232,37,107); */
+    background: radial-gradient(circle, rgb(245, 243, 244) 40%, rgb(16, 0, 10) 100%);
+    color: rgb(12, 12, 0);
+  
+  }
+.diff_cat{
+    width: 229px;
+    height: 300px;
+    display: inline-block;
+    margin: 1% 0.2%;
+    border: 0.3px solid black;
+    text-align: center;
+    /* border-radius: 5px; */
+    box-shadow: 0 0 1px 0.2px rgb(118, 118, 118);
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s all ease-in-out;
+    vertical-align: top;
+    cursor: pointer;
+}
+.diff_cat h2{
+    font-size: 20px;
+    vertical-align: top;
+    padding: 0 10px;
+    height: 20px;
+    vertical-align: middle;
+}
+.diff_cat img{
+    width: 99%;
+    /* height: 160px; */
+    /* border-radius: 10px; */
+}
+.diff_cat div,.diff_cat p{
+    display: inline-block;
+    font-weight: bold;
+}
+.diff_cat div{
+    font-size: 20px;
+}
+.diff_cat p{
+    padding: 0px 10px;
+}
+.diff_cat div{
+    margin-bottom: 17px;
+}
+.diff_cat:hover{
+    transform: translateY(-4px);
+    box-shadow: 2px 2px 5px 6px rgb(151, 143, 143);
+}
+.cut{
+    text-decoration: line-through;
+    color: red;
+}
+#demo{
+    text-align: center;
+}
+#demo a{
+    color: rgb(1, 61, 130);
+}
+#footer{
+    background-color: rgb(30,30,57);
+    color: white;
+    width: 100%;
+}
+
+#btt a{
+    margin: auto;
+    padding: 5px 0;
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(58, 58, 102);
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.foot_cont{
+    display: inline-block;
+    width: 20%;
+    margin: 0px -1%;
+    vertical-align: top;
+    height: 200px;
+}
+.foot_cont h3{
+    letter-spacing: -0.5px;
+}
+.foot_cont p{
+    padding-top: 2px;
+    margin-bottom: -6px;
+}
+.foot_cont p a,#ab_us a{
+    color: inherit;
+}
+#ab_us{
+    margin-left: 25%;
+}
